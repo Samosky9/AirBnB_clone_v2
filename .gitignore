@@ -1,6 +1,2 @@
-__pycache__
-file.txt
-myvenv
-question.txt
-info.log
-.venv
+__pycache__/
+process.sh
