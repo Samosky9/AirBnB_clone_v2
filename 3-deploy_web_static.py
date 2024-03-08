@@ -1,7 +1,10 @@
 #!/usr/bin/python3
 
-""" packs and deploys a new version to the server """
+""" 
+packs and deploys a new version to the server
 
+execute: fab -f 3-deploy_web_static.py deploy -i -/.ssh/id_rsa -u ubuntu 
+"""
 
 import os
 from fabric.api import env, local, run, put, runs_once
